@@ -1,0 +1,40 @@
+.dashboardComponent{
+    background-color: black;
+}
+.carousel-inner{
+    height: 700px;
+}
+.carousel-inner .carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.carouselSection h2 {
+    color: #E50914;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Trending Movies */
+.movieSectionParent {
+    display: flex;
+    gap: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.trendingMovieImage {
+    max-height: 200px;
+    object-fit: contain;
+    box-sizing: content-box;
+    transition: transform 450ms;
+}
+.trendingMovieImage:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+.movieSectionChild img{
+    max-height: 300px;
+}
+.movieSectionParent::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,37 @@
+.searchSection {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSection {
+    width: 60%;
+}
+
+.inputSection input {
+    width: 80%;
+    height: 40px;
+    display: inline;
+    border-radius: 10px;
+    float: left;
+}
+
+.inputSection button {
+    margin-right: -10px;
+    width: 20%;
+    height: 40px;
+    display: inline;
+    border-radius: 5px;
+    float: right;
+}
+
+@media(max-width:600px) {
+    .inputSection {
+        width: 100%;
+        padding: 20px;
+    }
+
+}

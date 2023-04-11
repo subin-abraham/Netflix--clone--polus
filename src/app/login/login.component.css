@@ -1,0 +1,106 @@
+.main-component {
+  background-image: url(../../assets/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+
+}
+
+/* header section */
+.header {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+.icon {
+  width: 100%;
+  display: grid;
+}
+
+.icon img {
+  float: left;
+  display: inline;
+  width: 15%;
+}
+/* content */
+.parentDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.childDiv {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.719);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.inputContent{
+    width: 100%;
+}
+.inputContent h1{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+.inputSection {
+  display: flex;
+  flex-direction: column;
+}
+.inputSection input {
+  background-color: #333;
+  border: 1px solid #333333;
+  border-radius: 3px;
+}
+.inputSection button {
+  height: 50px;
+  color: white;
+  background-color: #e50914;
+  border: 1px solid #e50914;
+  border-radius: 3px;
+}
+.passwordResetContent label{
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+}
+.passwordResetContent a{
+  float: right;
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.passwordResetContent a:hover{
+  text-decoration: underline;
+}
+.signupComponent label,p{
+  color: #8c8c8c;
+  font-size: 13px;
+  font-weight: 400;
+}
+.signupComponent a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.signupComponent a:hover{
+  text-decoration: underline;
+}
+.signupComponent .learnMore{
+  color: rgb(8, 110, 226);
+  font-size: 13px;
+  text-decoration: none;
+}
+.signupComponent .learnMore:hover{
+  text-decoration: underline;
+}
+
+

@@ -1,0 +1,133 @@
+/* Section One Background */
+.home-component {
+  background-image: url(../../assets/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+/* Section One Content */
+.displayContentMain {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionOneContent {
+  width: 80%;
+  height: 200px;
+  z-index: 2;
+  position: relative;
+}
+.sectionOneContent h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.sectionOneContent h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.sectionOneContent h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-top: 15px;
+}
+.sectionOneInput input {
+  width: 350px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #00000066;
+  border: 0.5px white solid;
+}
+.sectionOneInput button {
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #ef0914;
+  color: white;
+}
+@media (max-width: 652px) {
+  .displayContentMain {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sectionOneContent h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .sectionOneContent h2 {
+    margin: 1rem 0 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+  .sectionOneContent h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+  }
+  .sectionOneInput input {
+    width: 100%;
+  }
+  .sectionOneInput button {
+    margin-top: 10px;
+  }
+}
+/* Section Two */
+.sectionTwoContent {
+  width: 100%;
+  height: 80%;
+  background-color: black;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionTwoChild {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15%;
+}
+.sectionTwoText {
+  width: 50%;
+  float: left;
+}
+.sectionTwoText h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.sectionTwoText p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.sectionTwoMedia {
+  width: 50%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionTwoContent img{
+  width: 100%;
+  z-index: 2;
+}
+.sectionTwoContent video{
+  width: 26%;
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+.showMoviesParent {
+    width: 100%;
+    min-height: 300px;
+}
+
+.showImage {
+    min-height: 300px;
+}
+
+.showMoviesParent img {
+    width: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+.crewSection{
+    width: 100%;
+}
